@@ -1,0 +1,4 @@
+train: /home/anand/Desktop/multi_detection/train
+val: /home/anand/Desktop/multi_detection/test
+nc: 3
+names: ["crowded_alert", "weapon_alert", "fight_alert"]
