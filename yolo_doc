@@ -1,6 +1,0 @@
-step 1)
-yolo task=segment mode=train epochs=100 data=dataset.yaml model=yolov8m-seg.pt imgsz=640 batch=8
-
-step2)
-for object detection 
- yolo task=detect mode=predict model=best_cust.pt show=True conf=0.5 source=gun1.mp4
